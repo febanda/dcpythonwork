@@ -85,6 +85,54 @@ while True:
         break
     else:
         print("Try again")
+    
+        
+        
+num_coins = 3
+print("You have {} coins.".format(num_coins))
+while True:
+    status = input("Do you want another? (yes/no) ")
+    if status == 'yes':
+        num_coins += 1
+        print("You have {} coins.".format(num_coins))
+    elif status == 'no':
+        print("Bye")
+        break
+    else:
+        print("Try again")
+        
+        
+        
+total_bill = float(input('Total bill amount?'))
+level_service = input('Level of Service?')
+good = float(.20 * total_bill)
+fair = float(.15 * total_bill)
+bad = float(.10 * total_bill)
+if level_service == "good":
+    print('Tip amount: {:.2f}'.format(good))
+    print('Total amount: {:.2f}'.format(total_bill))
+elif level_service == "fair":
+    print('Tip amount: {:.2f}'.format(fair))
+    print('Total amount: {:.2f}'.format(total_bill))
+elif level_service == "bad":
+    print('Tip amount: {:.2f}'.format(bad))
+    print('Total amount: {:.2f}'.format(total_bill))
+
+    
+    
+    
+
+
+
+        
+        
+        
+            
+    
+       
+        
+        
+
         
         
     
