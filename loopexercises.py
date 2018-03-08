@@ -41,3 +41,9 @@ print('*' * b)
 print('*'+ a + '*')
 print('*' * b)
 
+
+for number in range (1,100):
+    a = number*(number+1)/2
+    print (a)
+    
+    
